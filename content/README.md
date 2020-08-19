@@ -1,8 +1,6 @@
 # README
 
-外域线上阅读地址：https://slark-studio-am.github.io/game_docs/
-
-国内线上阅读地址：http://game.maojupao.me/
+文档阅读地址：http://game.maojupao.me/
 
 仓库地址：https://github.com/slark-studio-am/game_docs
 
