@@ -6,6 +6,8 @@
 
 公益图床：https://sbimg.cn/
 
+私有留言板：https://trello.com/b/oDaQGcgS/%E7%95%99%E8%A8%80%E6%9D%BF
+
 头脑风暴week01：[https://trello.com/b/9SwoE1I3/%E5%A4%B4%E8%84%91%E9%A3%8E%E6%9A%B4-week01](https://trello.com/b/9SwoE1I3/头脑风暴-week01)
 
 头脑风暴week02：[https://trello.com/b/WQiBShgZ/%E5%A4%B4%E8%84%91%E9%A3%8E%E6%9A%B4-week02](https://trello.com/b/WQiBShgZ/头脑风暴-week02)
