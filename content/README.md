@@ -1,8 +1,8 @@
-# 引申阅读
+# 斯拉克工作室 Slark_studio 
 
 文档阅读：http://game.maojupao.me/
 
-仓库地址：https://github.com/slark-studio-am/game_docs
+游戏策划文档仓库地址：https://github.com/slark-studio-am/game_docs
 
 图床：https://imgchr.com/
 
