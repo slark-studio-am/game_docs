@@ -1,8 +1,8 @@
 # Summary
 
-* [甘特镇 Gantt Town](README.md)
+* [斯拉克工作室](README.md)
 
-## Part I - 游戏设计文档
+## 甘特镇 Gantt Town
 * [甘特镇 Gantt Town](chapter1/1 游戏概述.md)
     * [1.1 游戏简介](chapter1/1.1 游戏简介.md)
     * [2 玩法-产业管理](chapter2/2 玩法-产业管理.md)
