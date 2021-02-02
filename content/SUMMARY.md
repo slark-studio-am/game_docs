@@ -11,3 +11,4 @@
 * [地下一百层 Dungeons](chapter2/1 游戏概述.md)
     * [1.1 游戏简介](chapter2/1.1 游戏简介.md)
     * [1.2 素材地址](chapter2/1.2 素材地址.md)
+    * [1.3 素材方案](chapter2/1.3 素材方案.md)
