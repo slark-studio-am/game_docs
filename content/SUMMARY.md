@@ -9,19 +9,16 @@
     * [2.1 产业管理](chapter2/2.1 产业管理.md)
     * [2.2 定义及方法](chapter2/2.2 定义及方法.md)
     
-* [地下一百层 Dungeons](chapter2/1 游戏概述.md)
+* [地下一百层 Dungeons](chapter2/游戏概述.md)
+
+  - [1 游戏设定](chapter2/1 游戏设定.md)
+  - [2 游戏原型](chapter2/2 游戏原型.md)
+  - [2.1 单位](chapter2/2.1 单位.md)
+    - [2.2 事件](chapter2/2.1 单位.md)
+    - [2.3 技能](chapter2/2.1 单位.md)
+  - [2.4 神器](chapter2/2.1 单位.md)
   
-  - [1 游戏概述](chapter2/1 游戏概述.md)
-  
-  - [2 游戏设定](chapter2/2 游戏设定.md)
-  
-  - [3 游戏关卡](chapter2/3 游戏关卡.md)
-  
-  - [4 战斗卡组](chapter2/4 战斗卡组.md)
-  
-  - [5 技能说明](chapter2/5 技能说明.md)
-  
-  * [6 素材方案](chapter2/6 素材方案.md)
+* [3 素材方案](chapter2/6 素材方案.md)
   
     
 
