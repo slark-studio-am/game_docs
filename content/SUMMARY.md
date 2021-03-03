@@ -23,7 +23,7 @@
     - [2.4 神器artifact](chapter2/2.4 神器.md)
     
     - [2.5 BUFF](chapter2/2.5 BUFF.md)
-  - [3 素材方案](chapter2/6 素材方案.md)
+  - [3 素材方案](chapter2/3 素材方案.md)
   
     
   
