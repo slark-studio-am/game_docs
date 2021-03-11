@@ -16,13 +16,11 @@
   - [2 游戏原型](chapter2/2 游戏原型.md)
   
     - [2.1 单位objective](chapter2/2.1 单位.md)
-    
     - [2.2 事件event](chapter2/2.2 事件.md)
-    
     - [2.3 技能skill](chapter2/2.3 技能.md)
     - [2.4 神器artifact](chapter2/2.4 神器.md)
-    
     - [2.5 BUFF](chapter2/2.5 BUFF.md)
+    - [2.6 英雄](chapter2/2.6 英雄.md)
   - [3 素材方案](chapter2/3 素材方案.md)
   
     
