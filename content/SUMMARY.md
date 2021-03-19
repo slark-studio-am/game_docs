@@ -13,6 +13,7 @@
 * [地下一百层 Dungeons](chapter2/游戏概述.md)
 
   - [1 游戏设定](chapter2/1 游戏设定.md)
+  
   - [2 游戏原型](chapter2/2 游戏原型.md)
   
     - [2.1 单位](chapter2/2.1 单位.md)
@@ -20,8 +21,9 @@
     - [2.3 技能](chapter2/2.3 技能.md)
     - [2.4 神器](chapter2/2.4 神器.md)
     - [2.5 BUFF](chapter2/2.5 BUFF.md)
+    
   - [3 素材方案](chapter2/3 素材方案.md)
   
-    
+  - [4 更新日志](chapter2/4 更新日志.md)
   
 
