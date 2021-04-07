@@ -20,9 +20,8 @@
     - [2.3 技能](chapter2/2.3 技能.md)
     - [2.4 神器](chapter2/2.4 神器.md)
     - [2.5 BUFF](chapter2/2.5 BUFF.md)
-  - [3 游戏场景](chapter2/3 游戏场景.md)
+  - [3 游戏动效](chapter2/3 游戏动效.md)
   - [4 素材方案](chapter2/4 素材方案.md)
   - [5 更新日志](chapter2/5 更新日志.md)
   - [6 设计规范](chapter2/6 设计规范.md)
   
-
