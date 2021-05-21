@@ -24,4 +24,5 @@
   - [4 素材方案](chapter2/4 素材方案.md)
   - [5 更新日志](chapter2/5 更新日志.md)
   - [6 设计规范](chapter2/6 设计规范.md)
-  
+  - [7 UI说明](chapter2/7 UI说明.md)
+
