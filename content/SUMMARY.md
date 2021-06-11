@@ -21,8 +21,7 @@
   - [3 游戏动效](chapter2/3 游戏动效.md)
     - [3.1 技能](chapter2/3.1 技能.md)
     - [3.2 BUFF](chapter2/3.2 BUFF.md)
-  - [4 素材方案](chapter2/4 素材方案.md)
-  - [5 更新日志](chapter2/5 更新日志.md)
-  - [6 设计规范](chapter2/6 设计规范.md)
-  - [7 UI说明](chapter2/7 UI说明.md)
+  - [4 UI说明](chapter2/4 UI说明.md)
+  - [5 素材记录](chapter2/5 素材记录.md)
+  - [6 更新日志](chapter2/6 更新日志.md)
 
