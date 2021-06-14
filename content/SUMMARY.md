@@ -23,5 +23,6 @@
     - [3.2 BUFF](chapter2/3.2 BUFF.md)
   - [4 UI说明](chapter2/4 UI说明.md)
   - [5 素材记录](chapter2/5 素材记录.md)
-  - [6 更新日志](chapter2/6 更新日志.md)
+  - [6 游戏API](chapter2/6 游戏api.md)
+  - [7 更新日志](chapter2/7 更新日志.md)
 
