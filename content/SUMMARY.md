@@ -18,6 +18,7 @@
     - [2.2 事件](chapter2/2.2 事件.md)
     - [2.3 神器](chapter2/2.3 神器.md)
     - [2.4 强化](chapter2/2.4 强化.md)
+    - [2.5 怪物](chapter2/2.5 怪物.md)
   - [3 游戏动效](chapter2/3 游戏动效.md)
     - [3.1 技能](chapter2/3.1 技能.md)
     - [3.2 BUFF](chapter2/3.2 BUFF.md)
