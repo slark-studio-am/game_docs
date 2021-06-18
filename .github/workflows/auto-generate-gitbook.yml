@@ -32,9 +32,9 @@ jobs:
     - name: push _book to branch gh-pages 
       env:
         TOKEN: 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
-        REF: github.com/${{github.repository}}
+        REF: github.com/slark-studio-am/game_docs
         MYEMAIL: slark-studio-am@yandex.com                  # ！！记得修改为自己邮箱
-        MYNAME: ${{github.repository_owner}}          
+        MYNAME: maojupao          
       run: |
         cd _book
         git config --global user.email "${MYEMAIL}"
