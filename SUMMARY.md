@@ -1,6 +1,6 @@
 # Summary
 
-* [斯拉克工作室](README.md)
+* [斯拉克工作室](docs/README.md)
 
 ## 甘特镇 Gantt Town
 * [甘特镇 Gantt Town](chapter1/1 游戏概述.md)
