@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f89a0ee565f95e3448e40de4a884c327, type: 3}
+  m_Name: artifact_004
+  m_EditorClassIdentifier: 
+  cardId: 4
+  cardName: "\u53CD\u65B9\u5411\u7684\u949F"
+  cardLocalizedName:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 1
+  cardType: {fileID: 11400000, guid: 83635221e3c0fa147b27b9db210391c9, type: 2}
+  cardTarget: 0
+  description: "\u7A7F\u68AD\u65F6\u95F4\u7684\u753B\u9762\u7684\u949F\uFF0C\u4ECE\u53CD\u65B9\u5411\u5F00\u59CB\u79FB\u52A8"
+  localizedDescription:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 1
+  previewImage: {fileID: 0}
+  rarity: 0
+  previewIcon: {fileID: 21300000, guid: 7742bf0e5b4104466a2a76c7320c415c, type: 3}
+  linkBuffCards: []
