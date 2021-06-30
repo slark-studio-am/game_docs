@@ -1,8 +1,15 @@
 # 4 UI说明
 
-### 1.新版分区
+### 4.1 新版分区
 
-#### （1）预制体 /battle/unit.prefab
+#### （0）目录
+
+| 编号  |            名称            |          跳转           |
+| :---: | :------------------------: | :---------------------: |
+| 4.1.1 | 预制体 /battle/unit.prefab | [<div>点击</div>](#411) |
+| 4.1.2 |    各预制体的sort layer    | [<div>点击</div>](#412) |
+
+#### （1）4.1.1 预制体 /battle/unit.prefab<div id="411">
 
 [![RNEZf1.png](https://z3.ax1x.com/2021/06/28/RNEZf1.png)](https://imgtu.com/i/RNEZf1)
 
@@ -17,7 +24,29 @@
 
 
 
-### 2.旧版分区，方便查看旧控件
+#### （2）4.1.2 各预制体的sort layer<div id="412">
+
+|              预制体               |                     object                      | sorting layer | order in layer |
+| :-------------------------------: | :---------------------------------------------: | :-----------: | :------------: |
+| /Battle/Background/SunshineForest |                     Layer2                      |  Background   |       5        |
+| /Battle/Background/SunshineForest |                     Layer1                      |  Background   |       1        |
+| /Battle/Background/SunshineForest |                     Layer0                      |  Background   |       0        |
+|        /Battle/Battle_Seat        |              /Hero_Seat/所有shadow              |  Background   |       1        |
+|        /Battle/Battle_Seat        |    /Hero_Seat/Hero_001 & 002/unit/unit_image    |  Background   |       2        |
+|        /Battle/Battle_Seat        |    /Hero_Seat/Hero_003 & 004/unit/unit_image    |  Background   |       3        |
+|        /Battle/Battle_Seat        |    /Hero_Seat/Hero_005 & 006/unit/unit_image    |  Background   |       4        |
+|        /Battle/Battle_Seat        |            /Monster_Seat/所有shadow             |  Background   |       1        |
+|        /Battle/Battle_Seat        | /Monster_Seat/Monster_001 & 002/unit/unit_image |  Background   |       2        |
+|        /Battle/Battle_Seat        | /Monster_Seat/Monster_003 & 004/unit/unit_image |  Background   |       3        |
+|        /Battle/Battle_Seat        | /Monster_Seat/Monster_005 & 006/unit/unit_image |  Background   |       4        |
+
+
+
+
+
+
+
+### 4.2 旧版分区，方便查看旧控件
 
 ![image-20210611162233732](https://i.loli.net/2021/06/11/AfWZJVDGhFPBwLc.png)
 
