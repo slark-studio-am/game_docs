@@ -24,3 +24,4 @@
 - [5 素材记录](chapter2/5 素材记录.md)
 - [6 游戏API](chapter2/6 游戏api.md)
 - [7 更新日志](chapter2/7 更新日志.md)
+- [8 测试实验室](chapter2/8 实验室.md)
