@@ -276,3 +276,6 @@
 - 在UnitLeft和UnitRight的Unit_Stop_Image之下，新增一个预制体Unit_Selector
 - Unit_Selector里包含4张角标图，该图片的锚点在左上角，系统需要根据Unit_Stop_Image图片的四个顶点将4张角标图的锚点与顶点重合
 
+
+
+空提交
