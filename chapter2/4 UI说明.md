@@ -10,6 +10,7 @@
 - [<div>4.2 战场信息</div>](#42)
 - [<div>4.3 战利品 - 数据关联7.4</div>](#43)
 - [<div>4.4 部分UI关联表格</div>](#44)
+- [<div>4.5 单位选中效果</div>](#45)
 
 ### 4.1 单位信息 Bottom/Unit_Attributes<div id="41">
 
@@ -264,8 +265,14 @@
 
 
 
+### 4.5 单位选中效果<div id='45'>
 
+##### （1）效果展示
 
+![image-20210827145534025](https://i.loli.net/2021/08/27/yL4Un56MeiH3Rot.png)
 
+##### （2）原理
 
-1.新增4.4 2.更新了4.1.2 3.删除了Card_Details 4.重新修改RoundTips 5.单位属性栏都改为00 
+- 在UnitLeft和UnitRight的Unit_Stop_Image之下，新增一个预制体Unit_Selector
+- Unit_Selector里包含4张角标图，该图片的锚点在左上角，系统需要根据Unit_Stop_Image图片的四个顶点将4张角标图的锚点与顶点重合
+
