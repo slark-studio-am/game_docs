@@ -398,9 +398,19 @@
 <p>&#x672C;&#x6D4B;&#x8BD5;&#x5B9E;&#x9A8C;&#x5BA4;&#x7684;&#x5B97;&#x65E8;&#x662F;&#x5728;&#x8C03;&#x6574;&#x6574;&#x4E2A;&#x8239;&#x7684;&#x822A;&#x5411;&#x65F6;&#xFF0C;&#x5148;&#x6D3E;&#x51FA;&#x8BD5;&#x63A2;&#x6027;&#x7684;&#x5C0F;&#x8222;&#x677F;&#x67E5;&#x63A2;&#x6697;&#x7901;&#x3002;</p>
 <h3 id="70-&#x76EE;&#x5F55;">7.0 &#x76EE;&#x5F55;</h3>
 <ul>
-<li><a href="#71"><div>7.1 &#x5730;&#x56FE;-&#x9009;&#x62E9;&#x8DEF;&#x7EBF;</div></a></li>
+<li><a href="#71"><div>7.1 &#x5173;&#x5361;&#x914D;&#x7F6E;</div></a></li>
+<li><a href="#711"><div>7.1.1 &#x5149;&#x660E;&#x6559;&#x5723;&#x6240;&#xFF08;&#x8865;&#x8840;&#xFF09;</div></a></li>
+<li><a href="#712"><div>7.1.2 &#x9B54;&#x6CD5;&#x5DE5;&#x4F1A;&#x529E;&#x4E8B;&#x5904;&#xFF08;&#x65B0;&#x6280;&#x80FD;&#xFF09;</div></a></li>
+<li><a href="#713"><div>7.1.3 &#x5730;&#x7CBE;&#x5DE5;&#x7A0B;&#x9662;&#xFF08;&#x6D17;&#x7EC3;&#x88C5;&#x5907;&#xFF09;</div></a></li>
+<li><a href="#714"><div>7.1.4 &#x5730;&#x4E0B;&#x9ED1;&#x5E02;&#xFF08;&#x5546;&#x5E97;&#xFF09;</div></a></li>
+<li><a href="#715"><div>7.1.5 &#x906D;&#x9047;&#x6218;&#xFF08;&#x6218;&#x6597;&amp;&#x8FDB;&#x9636;&#x6218;&#x6597;&#xFF09;</div></a></li>
+<li><a href="#716"><div>7.1.6 BOSS&#x6218;&#xFF08;&#x6218;&#x6597;&amp;&#x8FDB;&#x9636;&#x6218;&#x6597;&#xFF09;</div></a></li>
+<li><a href="#717"><div>7.1.7 &#x8FF7;&#x96FE;&#x68EE;&#x6797;&#xFF08;&#x95EE;&#x53F7;&#x623F;&#xFF09;</div></a></li>
+<li><a href="#72"><div>7.2 &#x88C5;&#x5907;&#x8868;</div></a></li>
+<li><a href="#73"><div>7.3 &#x5C5E;&#x6027;&#x8868;</div></a></li>
+<li><a href="#74"><div>7.4 &#x6218;&#x6597;&#x6311;&#x6218;&#x6548;&#x679C;&#x8868;</div></a></li>
 </ul>
-<h4 id="71-&#x5730;&#x56FE;-&#x9009;&#x62E9;&#x8DEF;&#x7EBF;">7.1 &#x5730;&#x56FE;-&#x9009;&#x62E9;&#x8DEF;&#x7EBF;<div id="71"></div></h4>
+<h3 id="71-&#x5173;&#x5361;&#x914D;&#x7F6E;">7.1 &#x5173;&#x5361;&#x914D;&#x7F6E;<div id="71"></div></h3>
 <p><img src="https://i.loli.net/2021/11/05/eDu9mq6Ub4zWvcZ.png" alt="image-20211105153841369"></p>
 <ul>
 <li><h4 id="&#x5355;&#x5173;&#x623F;&#x95F4;&#x6570;&#x91CF;&#xFF08;45&#xFF09;">&#x5355;&#x5173;&#x623F;&#x95F4;&#x6570;&#x91CF;&#xFF08;45&#xFF09;</h4>
@@ -517,10 +527,30 @@
 <td style="text-align:center">special_room_count</td>
 <td style="text-align:center">3</td>
 </tr>
+<tr>
+<td style="text-align:center">&#x5730;&#x56FE;&#x6A2A;&#x5411;&#x623F;&#x95F4;&#x6570;</td>
+<td style="text-align:center">map_horizontal_room_count</td>
+<td style="text-align:center">3</td>
+</tr>
+<tr>
+<td style="text-align:center">&#x5730;&#x56FE;&#x5206;&#x5C42;&#x623F;&#x95F4;&#x6570;</td>
+<td style="text-align:center">map_floor_room_count</td>
+<td style="text-align:center">3</td>
+</tr>
 </tbody>
 </table>
 <ul>
-<li><h4 id="&#x5149;&#x660E;&#x6559;&#x5723;&#x6240;&#xFF08;&#x8865;&#x8840;&#xFF09;">&#x5149;&#x660E;&#x6559;&#x5723;&#x6240;&#xFF08;&#x8865;&#x8840;&#xFF09;<div id="711"></div></h4>
+<li><p>&#x90E8;&#x5206;&#x5B57;&#x6BB5;&#x89E3;&#x91CA;</p>
+<ul>
+<li><p><strong>&#x5173;&#x5361;&#x4F20;&#x5165;&#x7B49;&#x7EA7;&#xFF1A;</strong>&#x67D0;&#x4E9B;&#x623F;&#x95F4;&#x9700;&#x8981;&#x6839;&#x636E;&#x5F53;&#x524D;&#x5173;&#x5361;&#x6570;&#x52A8;&#x6001;&#x8C03;&#x6574;&#x623F;&#x95F4;&#x5185;&#x7684;&#x53C2;&#x6570;&#xFF0C;&#x6240;&#x4EE5;&#x9700;&#x8981;&#x4F20;&#x5165;&#x4E00;&#x4E2A;&#x7B49;&#x7EA7;&#xFF0C;&#x7B49;&#x7EA7;&#x4ECE;0&#x5F00;&#x59CB;&#xFF0C;&#x7B2C;&#x4E00;&#x5173;</p>
+</li>
+<li><p><strong>&#x5730;&#x56FE;&#x6A2A;&#x5411;&#x623F;&#x95F4;&#x6570;&#xFF0C;&#x5730;&#x56FE;&#x5206;&#x5C42;&#x623F;&#x95F4;&#x6570;:</strong>&#x751F;&#x6210;&#x623F;&#x95F4;&#x65F6;&#xFF0C;&#x6309;&#x7167;&#x53BB;&#x9664;BOSS&#x623F;&#x540E;&#x603B;&#x5171;45&#x4E2A;&#x623F;&#x95F4;&#xFF0C;&#x4EE5;&#x3010;<strong>&#x5730;&#x56FE;&#x6A2A;&#x5411;&#x623F;&#x95F4;&#x6570;</strong>&#x3011;&#x7684;&#x6570;&#x91CF;&#xFF0C;&#x5C06;&#x6240;&#x6709;&#x623F;&#x95F4;&#x9884;&#x5148;&#x89C4;&#x6574;&#x6210;&#x4E00;&#x4E2A;3&#xD7;15&#x7684;&#x77E9;&#x9635;&#xFF0C;&#x518D;&#x6309;&#x7167;&#x3010;<strong>&#x5730;&#x56FE;&#x5206;&#x5C42;&#x623F;&#x95F4;&#x6570;</strong>&#x3011;&#x5728;&#x7EB5;&#x5411;&#x4E0A;&#xFF0C;&#x4EE5;3&#x4E2A;&#x623F;&#x95F4;&#x4E3A;&#x4E00;&#x4E2A;&#x5355;&#x4F4D;&#xFF0C;&#x5C06;15&#x5206;&#x6210;5&#x5C42;&#xFF0C;&#x6700;&#x540E;&#x5C55;&#x793A;&#x5230;&#x754C;&#x9762;&#x4E0A;&#x7684;&#x5C31;&#x662F;5&#x5C42;&#xFF0C;&#x6BCF;&#x5C42;&#x91CC;&#x9762;9&#x4E2A;&#x623F;&#x95F4;</p>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><h4 id="711-&#x5149;&#x660E;&#x6559;&#x5723;&#x6240;&#xFF08;&#x8865;&#x8840;&#xFF09;">7.1.1 &#x5149;&#x660E;&#x6559;&#x5723;&#x6240;&#xFF08;&#x8865;&#x8840;&#xFF09;<div id="711"></div></h4>
 </li>
 </ul>
 <table>
@@ -576,7 +606,7 @@
 </table>
 <p><img src="https://i.loli.net/2021/11/05/HjUf3cAgx7GPLiO.png" alt="image-20211105170937900"></p>
 <ul>
-<li><h4 id="&#x9B54;&#x6CD5;&#x5DE5;&#x4F1A;&#x529E;&#x4E8B;&#x5904;&#xFF08;&#x65B0;&#x6280;&#x80FD;&#xFF09;">&#x9B54;&#x6CD5;&#x5DE5;&#x4F1A;&#x529E;&#x4E8B;&#x5904;&#xFF08;&#x65B0;&#x6280;&#x80FD;&#xFF09;<div id="712"></div></h4>
+<li><h4 id="712-&#x9B54;&#x6CD5;&#x5DE5;&#x4F1A;&#x529E;&#x4E8B;&#x5904;&#xFF08;&#x65B0;&#x6280;&#x80FD;&#xFF09;">7.1.2 &#x9B54;&#x6CD5;&#x5DE5;&#x4F1A;&#x529E;&#x4E8B;&#x5904;&#xFF08;&#x65B0;&#x6280;&#x80FD;&#xFF09;<div id="712"></div></h4>
 </li>
 </ul>
 <table>
@@ -667,7 +697,7 @@
 </table>
 <p><img src="https://i.loli.net/2021/11/08/GVQJmFYcSWw7RZP.png" alt="image-20211108155436883"></p>
 <ul>
-<li><h4 id="&#x5730;&#x7CBE;&#x5DE5;&#x7A0B;&#x9662;&#xFF08;&#x6D17;&#x7EC3;&#x88C5;&#x5907;&#xFF09;">&#x5730;&#x7CBE;&#x5DE5;&#x7A0B;&#x9662;&#xFF08;&#x6D17;&#x7EC3;&#x88C5;&#x5907;&#xFF09;<div id="713"></div></h4>
+<li><h4 id="713-&#x5730;&#x7CBE;&#x5DE5;&#x7A0B;&#x9662;&#xFF08;&#x6D17;&#x7EC3;&#x88C5;&#x5907;&#xFF09;">7.1.3 &#x5730;&#x7CBE;&#x5DE5;&#x7A0B;&#x9662;&#xFF08;&#x6D17;&#x7EC3;&#x88C5;&#x5907;&#xFF09;<div id="713"></div></h4>
 </li>
 </ul>
 <table>
@@ -714,20 +744,6 @@
 <td style="text-align:center">first_refresh_spend</td>
 <td style="text-align:center">0</td>
 </tr>
-<tr>
-<td style="text-align:center">&#x7B49;&#x7EA7;0&#x968F;&#x673A;&#x5C5E;&#x6027;&#x5217;&#x8868;</td>
-<td style="text-align:center"></td>
-<td style="text-align:center">-</td>
-</tr>
-<tr>
-<td style="text-align:center">&#x7B49;&#x7EA7;1&#x968F;&#x673A;&#x5C5E;&#x6027;&#x5217;&#x8868;</td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-</tr>
-<tr>
-<td style="text-align:center">&#x7B49;&#x7EA7;2&#x968F;&#x673A;&#x5C5E;&#x6027;&#x5217;&#x8868;</td>
-<td style="text-align:center"></td>
-</tr>
 </tbody>
 </table>
 <table>
@@ -748,10 +764,10 @@
 </tr>
 </tbody>
 </table>
+<p><strong>&#x6CE8;&#xFF1A;&#x5173;&#x4E8E;&#x5982;&#x4F55;&#x8FDB;&#x884C;&#x5237;&#x65B0;&#x7684;&#x5185;&#x5BB9;&#x5DF2;&#x5728;<a href="#721"><div>&#x5C5E;&#x6027;&#x8868;&#x89E3;&#x91CA;</div></a>&#x4E2D;&#x7ED9;&#x51FA;</strong></p>
 <p><img src="https://i.loli.net/2021/11/08/7y6CqSMQpUrDX3H.png" alt="image-20211108161924978"></p>
-<p>&#x5EF6;&#x7533;&#xFF1A;&#x5C5E;&#x6027;&#x5217;&#x8868;</p>
 <ul>
-<li><h4 id="&#x5730;&#x4E0B;&#x9ED1;&#x5E02;&#xFF08;&#x5546;&#x5E97;&#xFF09;">&#x5730;&#x4E0B;&#x9ED1;&#x5E02;&#xFF08;&#x5546;&#x5E97;&#xFF09;<div id="714"></div></h4>
+<li><h4 id="714-&#x5730;&#x4E0B;&#x9ED1;&#x5E02;&#xFF08;&#x5546;&#x5E97;&#xFF09;">7.1.4 &#x5730;&#x4E0B;&#x9ED1;&#x5E02;&#xFF08;&#x5546;&#x5E97;&#xFF09;<div id="714"></div></h4>
 </li>
 </ul>
 <table>
@@ -806,17 +822,17 @@
 <tr>
 <td style="text-align:center">&#x666E;&#x901A;&#x54C1;&#x8D28;&#x51FA;&#x73B0;&#x57FA;&#x51C6;&#x6982;&#x7387;</td>
 <td style="text-align:center">normal_probability</td>
-<td style="text-align:center">0.6</td>
+<td style="text-align:center">0.7</td>
 </tr>
 <tr>
 <td style="text-align:center">&#x53F2;&#x8BD7;&#x54C1;&#x8D28;&#x51FA;&#x73B0;&#x57FA;&#x51C6;&#x6982;&#x7387;</td>
 <td style="text-align:center">epic_probability</td>
-<td style="text-align:center">0.3</td>
+<td style="text-align:center">0.25</td>
 </tr>
 <tr>
 <td style="text-align:center">&#x4F20;&#x5947;&#x54C1;&#x8D28;&#x51FA;&#x73B0;&#x57FA;&#x51C6;&#x6982;&#x7387;</td>
 <td style="text-align:center">legend_probability</td>
-<td style="text-align:center">0.1</td>
+<td style="text-align:center">0.05</td>
 </tr>
 <tr>
 <td style="text-align:center">&#x666E;&#x901A;&#x54C1;&#x8D28;&#x968F;&#x7B49;&#x7EA7;&#x8870;&#x51CF;&#x7684;&#x57FA;&#x51C6;(&#x4F20;&#x5165;&#x5173;&#x5361;&#x7B49;&#x7EA7;)</td>
@@ -826,12 +842,12 @@
 <tr>
 <td style="text-align:center">&#x53F2;&#x8BD7;&#x54C1;&#x8D28;&#x968F;&#x7B49;&#x7EA7;&#x63D0;&#x5347;&#x7684;&#x57FA;&#x51C6;(&#x4F20;&#x5165;&#x5173;&#x5361;&#x7B49;&#x7EA7;)</td>
 <td style="text-align:center">epic_upgrade_probability</td>
-<td style="text-align:center">0.08</td>
+<td style="text-align:center">0.07</td>
 </tr>
 <tr>
 <td style="text-align:center">&#x4F20;&#x5947;&#x54C1;&#x8D28;&#x968F;&#x7B49;&#x7EA7;&#x63D0;&#x5347;&#x7684;&#x57FA;&#x51C6;(&#x4F20;&#x5165;&#x5173;&#x5361;&#x7B49;&#x7EA7;)</td>
 <td style="text-align:center">legend_upgrade_probability</td>
-<td style="text-align:center">0.02</td>
+<td style="text-align:center">0.03</td>
 </tr>
 </tbody>
 </table>
@@ -853,10 +869,10 @@
 </tr>
 </tbody>
 </table>
+<p><strong>&#x6CE8;&#xFF1A;&#x5173;&#x4E8E;&#x88C5;&#x5907;&#x8868;&#x683C;&#x7684;&#x5185;&#x5BB9;&#x5DF2;&#x5728;<a href="#72"><div>7.3 &#x88C5;&#x5907;&#x8868;</div></a>&#x4E2D;&#x7ED9;&#x51FA;</strong></p>
 <p><img src="https://i.loli.net/2021/11/05/8FkqdbY69wPcZsy.png" alt="image-20211105174004654"></p>
-<p>&#x5EF6;&#x7533;&#xFF1A;&#x88C5;&#x5907;&#x5217;&#x8868;</p>
 <ul>
-<li><h4 id="&#x906D;&#x9047;&#x6218;&#xFF08;&#x666E;&#x901A;&#x6218;&#x6597;&#xFF09;">&#x906D;&#x9047;&#x6218;&#xFF08;&#x666E;&#x901A;&#x6218;&#x6597;&#xFF09;<div id="715"></div></h4>
+<li><h4 id="715-&#x906D;&#x9047;&#x6218;&#xFF08;&#x666E;&#x901A;&#x6218;&#x6597;&#xFF09;">7.1.5 &#x906D;&#x9047;&#x6218;&#xFF08;&#x666E;&#x901A;&#x6218;&#x6597;&#xFF09;<div id="715"></div></h4>
 </li>
 </ul>
 <table>
@@ -975,8 +991,8 @@
 <td style="text-align:center">-</td>
 </tr>
 <tr>
-<td style="text-align:center">&#x989D;&#x5916;&#x6548;&#x679C;&#x5217;&#x8868;</td>
-<td style="text-align:center">additional_effect</td>
+<td style="text-align:center">&#x989D;&#x5916;&#x6311;&#x6218;&#x5217;&#x8868;</td>
+<td style="text-align:center">additional_challenge</td>
 <td style="text-align:center">-</td>
 </tr>
 <tr>
@@ -986,9 +1002,8 @@
 </tr>
 </tbody>
 </table>
-<p>&#x5EF6;&#x7533;&#xFF1A;&#x6548;&#x679C;&#x5217;&#x8868;&#xFF0C;&#x5956;&#x52B1;&#x5217;&#x8868;</p>
 <ul>
-<li><h4 id="boss&#x6218;&#xFF08;&#x666E;&#x901A;&#x6218;&#x6597;&#xFF09;">BOSS&#x6218;&#xFF08;&#x666E;&#x901A;&#x6218;&#x6597;&#xFF09;<div id="716"></div></h4>
+<li><h4 id="716-boss&#x6218;&#xFF08;&#x666E;&#x901A;&#x6218;&#x6597;&#xFF09;">7.1.6 BOSS&#x6218;&#xFF08;&#x666E;&#x901A;&#x6218;&#x6597;&#xFF09;<div id="716"></div></h4>
 </li>
 </ul>
 <table>
@@ -1106,8 +1121,8 @@
 <td style="text-align:center">-</td>
 </tr>
 <tr>
-<td style="text-align:center">&#x989D;&#x5916;&#x6548;&#x679C;&#x5217;&#x8868;</td>
-<td style="text-align:center">additional_effect</td>
+<td style="text-align:center">&#x989D;&#x5916;&#x6311;&#x6218;&#x5217;&#x8868;</td>
+<td style="text-align:center">additional_challenge</td>
 <td style="text-align:center">-</td>
 </tr>
 <tr>
@@ -1118,7 +1133,7 @@
 </tbody>
 </table>
 <ul>
-<li><h4 id="&#x8FF7;&#x96FE;&#x68EE;&#x6797;&#xFF08;&#x95EE;&#x53F7;&#x623F;&#xFF09;">&#x8FF7;&#x96FE;&#x68EE;&#x6797;&#xFF08;&#x95EE;&#x53F7;&#x623F;&#xFF09;<div id="717"></div></h4>
+<li><h4 id="717-&#x8FF7;&#x96FE;&#x68EE;&#x6797;&#xFF08;&#x95EE;&#x53F7;&#x623F;&#xFF09;">7.1.7 &#x8FF7;&#x96FE;&#x68EE;&#x6797;&#xFF08;&#x95EE;&#x53F7;&#x623F;&#xFF09;<div id="717"></div></h4>
 </li>
 </ul>
 <table>
@@ -1156,9 +1171,318 @@
 <td style="text-align:center">&#x7A7A;</td>
 </tr>
 <tr>
-<td style="text-align:center">&#x968F;&#x673A;&#x623F;&#x95F4;&#x7F16;&#x53F7;(&#x53EF;add)</td>
-<td style="text-align:center">random_room_id</td>
-<td style="text-align:center">room1</td>
+<td style="text-align:center">&#x968F;&#x673A;&#x623F;&#x95F4;&#x7F16;&#x53F7;&#x5217;&#x8868;</td>
+<td style="text-align:center">random_room_id_list</td>
+<td style="text-align:center">room_01,room_02,room_03,room_04</td>
+</tr>
+</tbody>
+</table>
+<h3 id="72-&#x88C5;&#x5907;&#x8868;">7.2 &#x88C5;&#x5907;&#x8868;<div id="72"></div></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">&#x5B57;&#x6BB5;&#x540D;</th>
+<th style="text-align:center">&#x5B57;&#x6BB5;</th>
+<th style="text-align:center">&#x793A;&#x4F8B;&#x503C;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">&#x88C5;&#x5907;&#x7F16;&#x53F7;</td>
+<td style="text-align:center">arms_id</td>
+<td style="text-align:center">arms_001</td>
+</tr>
+<tr>
+<td style="text-align:center">&#x88C5;&#x5907;&#x7C7B;&#x578B;</td>
+<td style="text-align:center">arms_type</td>
+<td style="text-align:center">&#x3010;armor&#x3011;&#x3010;weapon&#x3011;</td>
+</tr>
+<tr>
+<td style="text-align:center">&#x88C5;&#x5907;&#x540D;&#x79F0;</td>
+<td style="text-align:center">arms_name</td>
+<td style="text-align:center">&#x6559;&#x56E2;&#x957F;&#x5251;</td>
+</tr>
+<tr>
+<td style="text-align:center">&#x88C5;&#x5907;&#x7B49;&#x7EA7;</td>
+<td style="text-align:center">arms_level</td>
+<td style="text-align:center">&#x3010;normal&#x3011;&#x3010;epic&#x3011;&#x3010;legend&#x3011;</td>
+</tr>
+<tr>
+<td style="text-align:center">&#x88C5;&#x5907;&#x56FE;&#x6807;</td>
+<td style="text-align:center">arms_icon</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">&#x88C5;&#x5907;&#x8BF4;&#x660E;</td>
+<td style="text-align:center">arms_explanation</td>
+<td style="text-align:center">&#x5149;&#x660E;&#x6559;&#x9A91;&#x58EB;&#x56E2;&#x4E1C;&#x5F81;&#x65F6;&#x6240;&#x4F7F;&#x7528;&#x7684;&#x5236;&#x5F0F;&#x6B66;&#x5668;&#xFF0C;&#x867D;&#x7136;&#x5DF2;&#x57CB;&#x5728;&#x5730;&#x4E0B;&#x767E;&#x5E74;&#xFF0C;&#x5374;&#x4F9D;&#x7136;&#x950B;&#x8292;&#x6BD5;&#x9732;</td>
+</tr>
+<tr>
+<td style="text-align:center">&#x88C5;&#x5907;&#x4EF7;&#x503C;</td>
+<td style="text-align:center">arms_price</td>
+<td style="text-align:center">&#x3010;1&#x3011;&#x3010;2&#x3011;&#x3010;3&#x3011;</td>
+</tr>
+<tr>
+<td style="text-align:center">&#x56FA;&#x5B9A;&#x5C5E;&#x6027;id</td>
+<td style="text-align:center">fixed_attributes_id</td>
+<td style="text-align:center">attr_04&#x529B;&#x91CF;&#xFF0C;attr_05&#x9B54;&#x529B;</td>
+</tr>
+<tr>
+<td style="text-align:center">&#x968F;&#x673A;&#x5C5E;&#x6027;id</td>
+<td style="text-align:center">random_attributes_id</td>
+<td style="text-align:center">attr_01&#x751F;&#x547D;&#xFF0C;attr_02&#x901F;&#x5EA6;&#xFF0C;attr_03&#x95EA;&#x907F;&#xFF0C;attr_06&#x5438;&#x8840;</td>
+</tr>
+<tr>
+<td style="text-align:center">&#x9644;&#x52A0;&#x6280;&#x80FD;&#x5217;&#x8868;</td>
+<td style="text-align:center">additional_skill_list</td>
+<td style="text-align:center">-</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><h5 id="&#x90E8;&#x5206;&#x5B57;&#x6BB5;&#x89E3;&#x91CA;">&#x90E8;&#x5206;&#x5B57;&#x6BB5;&#x89E3;&#x91CA;<div id="721"></div></h5>
+<ul>
+<li><p><strong>&#x88C5;&#x5907;&#x7C7B;&#x578B;&#xFF1A;</strong>&#x88C5;&#x5907;&#x4E00;&#x5171;&#x6709;2&#x79CD;&#x7C7B;&#x578B;&#xFF0C;&#x6B66;&#x5668;&#x5E26;&#x6709;&#x4E3B;&#x52A8;&#x6280;&#x80FD;&#xFF0C;&#x9632;&#x5177;&#x4E0D;&#x5E26;&#x4E3B;&#x52A8;&#x6280;&#x80FD;</p>
+</li>
+<li><p><strong>&#x88C5;&#x5907;&#x7B49;&#x7EA7;&#xFF1A;</strong>&#x88C5;&#x5907;&#x4E00;&#x5171;&#x6709;3&#x79CD;&#x7B49;&#x7EA7;&#xFF0C;&#x666E;&#x901A;&#x7EA7;&#x5E26;1&#x4E2A;&#x5C5E;&#x6027;&#xFF0C;&#x53F2;&#x8BD7;&#x7EA7;&#x5E26;2&#x4E2A;&#x5C5E;&#x6027;&#xFF0C;&#x4F20;&#x8BF4;&#x7EA7;&#x5E26;3&#x4E2A;&#x5C5E;&#x6027;&#xFF0C;&#x4E14;&#x5C5E;&#x6027;&#x7684;&#x6570;&#x503C;&#x8303;&#x56F4;&#x4E5F;&#x4E0E;&#x88C5;&#x5907;&#x7B49;&#x7EA7;&#x6302;&#x94A9;&#x3002;</p>
+</li>
+<li><p><strong>&#x56FA;&#x5B9A;&#x5C5E;&#x6027;id</strong>&#xFF1A;&#x88C5;&#x5907;&#x751F;&#x6210;&#x65F6;&#xFF0C;&#x5C06;&#x4F1A;&#x4ECE;&#x672C;&#x5B57;&#x6BB5;&#x586B;&#x5199;&#x7684;&#x591A;&#x4E2A;&#x5C5E;&#x6027;&#x4E2D;&#x9009;&#x62E9;1&#x4E2A;&#x3002;&#x8BE5;&#x5C5E;&#x6027;&#x5728;&#x88C5;&#x5907;&#x6D17;&#x7EC3;&#x65F6;&#x4E0D;&#x4F1A;&#x88AB;&#x66FF;&#x6362;&#xFF0C;&#x53EA;&#x4F1A;&#x5728;&#x8BBE;&#x5B9A;&#x7684;&#x8303;&#x56F4;&#x5185;&#x53D8;&#x52A8;&#x6570;&#x503C;&#x3002;&#x8BE5;&#x5B57;&#x6BB5;&#x53EF;&#x4EE5;&#x4E3A;&#x7A7A;</p>
+</li>
+<li><strong>&#x968F;&#x673A;&#x5C5E;&#x6027;id</strong>&#xFF1A;&#x88C5;&#x5907;&#x751F;&#x6210;&#x65F6;&#xFF0C;&#x5C06;&#x4F1A;&#x4ECE;&#x672C;&#x5B57;&#x6BB5;&#x586B;&#x5199;&#x7684;&#x591A;&#x4E2A;&#x5C5E;&#x6027;&#x4E2D;&#x9009;&#x62E9;N&#x4E2A;&#xFF0C;&#x5176;&#x4E2D;N&#x6839;&#x636E;&#x88C5;&#x5907;&#x7B49;&#x7EA7;&#x548C;&#x662F;&#x5426;&#x6709;&#x56FA;&#x5B9A;&#x5C5E;&#x6027;&#x667A;&#x80FD;&#x5224;&#x65AD;&#x3002;&#x968F;&#x673A;&#x5C5E;&#x6027;&#x5728;&#x88C5;&#x5907;&#x6D17;&#x7EC3;&#x65F6;&#x5C06;&#x4F1A;&#x88AB;&#x5141;&#x8BB8;&#x91CD;&#x590D;&#x7684;&#x66FF;&#x6362;&#x6210;&#x5176;&#x4ED6;&#x5C5E;&#x6027;&#xFF0C;&#x8FDE;&#x540C;&#x539F;&#x6765;&#x7684;&#x6570;&#x503C;&#x4E5F;&#x8DDF;&#x7740;&#x53D8;&#x52A8;&#x3002;&#x8BE5;&#x5B57;&#x6BB5;&#x53EF;&#x4EE5;&#x4E3A;&#x7A7A;</li>
+<li><strong>&#x9644;&#x52A0;&#x6280;&#x80FD;&#xFF1A;</strong>&#x5F53;&#x88C5;&#x5907;&#x7C7B;&#x578B;&#x4E3A;&#x6B66;&#x5668;&#x65F6;&#xFF0C;&#x5C06;&#x4ECE;&#x5217;&#x8868;&#x4E2D;&#x968F;&#x673A;&#x62BD;&#x53D6;&#x4E00;&#x4E2A;&#x4F5C;&#x4E3A;&#x9644;&#x52A0;&#x7684;&#x88AB;&#x52A8;&#x6280;&#x80FD;</li>
+</ul>
+</li>
+</ul>
+<h3 id="73-&#x5C5E;&#x6027;&#x8868;">7.3 &#x5C5E;&#x6027;&#x8868;<div id="73"></div></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">&#x5C5E;&#x6027;id</th>
+<th style="text-align:center">&#x5C5E;&#x6027;&#x540D;</th>
+<th style="text-align:center">&#x666E;&#x901A;&#x54C1;&#x8D28;&#x767E;&#x5206;&#x6BD4;&#x533A;&#x95F4;</th>
+<th style="text-align:center">&#x53F2;&#x8BD7;&#x54C1;&#x8D28;&#x767E;&#x5206;&#x6BD4;&#x533A;&#x95F4;</th>
+<th style="text-align:center">&#x4F20;&#x8BF4;&#x54C1;&#x8D28;&#x767E;&#x5206;&#x6BD4;&#x533A;&#x95F4;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">attributes_id</td>
+<td style="text-align:center">attributes_id</td>
+<td style="text-align:center">normal_per_Interval</td>
+<td style="text-align:center">epic_per_Interval</td>
+<td style="text-align:center">legend_per_Interval</td>
+</tr>
+<tr>
+<td style="text-align:center">attr_01</td>
+<td style="text-align:center">&#x751F;&#x547D;</td>
+<td style="text-align:center">[10%&#xFF0C;15%]</td>
+<td style="text-align:center">[15%&#xFF0C;30%]</td>
+<td style="text-align:center">[30%&#xFF0C;50%]</td>
+</tr>
+<tr>
+<td style="text-align:center">attr_02</td>
+<td style="text-align:center">&#x901F;&#x5EA6;</td>
+<td style="text-align:center">[10%&#xFF0C;15%]</td>
+<td style="text-align:center">[15%&#xFF0C;30%]</td>
+<td style="text-align:center">[30%&#xFF0C;50%]</td>
+</tr>
+<tr>
+<td style="text-align:center">attr_03</td>
+<td style="text-align:center">&#x95EA;&#x907F;</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">attr_04</td>
+<td style="text-align:center">&#x529B;&#x91CF;</td>
+<td style="text-align:center">[10%&#xFF0C;15%]</td>
+<td style="text-align:center">[15%&#xFF0C;30%]</td>
+<td style="text-align:center">[30%&#xFF0C;50%]</td>
+</tr>
+<tr>
+<td style="text-align:center">attr_05</td>
+<td style="text-align:center">&#x9B54;&#x529B;</td>
+<td style="text-align:center">[10%&#xFF0C;15%]</td>
+<td style="text-align:center">[15%&#xFF0C;30%]</td>
+<td style="text-align:center">[30%&#xFF0C;50%]</td>
+</tr>
+<tr>
+<td style="text-align:center">attr_06</td>
+<td style="text-align:center">&#x5438;&#x8840;</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">attr_07</td>
+<td style="text-align:center">&#x66B4;&#x51FB;</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">attr_08</td>
+<td style="text-align:center">&#x521D;&#x59CB;&#x6280;&#x80FD;&#x70B9;</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">attr_09</td>
+<td style="text-align:center">&#x589E;&#x957F;&#x6280;&#x80FD;&#x70B9;</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">attr_10</td>
+<td style="text-align:center">&#x7269;&#x7406;&#x6297;&#x6027;</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">attr_11</td>
+<td style="text-align:center">&#x9B54;&#x6CD5;&#x6297;&#x6027;</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">&#x5C5E;&#x6027;id</th>
+<th style="text-align:center">&#x5C5E;&#x6027;&#x540D;</th>
+<th style="text-align:center">&#x666E;&#x901A;&#x54C1;&#x8D28;&#x56FA;&#x5B9A;&#x6570;&#x503C;&#x533A;&#x95F4;</th>
+<th style="text-align:center">&#x53F2;&#x8BD7;&#x54C1;&#x8D28;&#x56FA;&#x5B9A;&#x6570;&#x503C;&#x533A;&#x95F4;</th>
+<th style="text-align:center">&#x4F20;&#x8BF4;&#x54C1;&#x8D28;&#x56FA;&#x5B9A;&#x6570;&#x503C;&#x533A;&#x95F4;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">attributes_id</td>
+<td style="text-align:center">attributes_id</td>
+<td style="text-align:center">normal_value_Interval</td>
+<td style="text-align:center">epic_value_Interval</td>
+<td style="text-align:center">legend_value_Interval</td>
+</tr>
+<tr>
+<td style="text-align:center">attr_01</td>
+<td style="text-align:center">&#x751F;&#x547D;</td>
+<td style="text-align:center">[20&#xFF0C;50]</td>
+<td style="text-align:center">[50&#xFF0C;100]</td>
+<td style="text-align:center">[100&#xFF0C;150]</td>
+</tr>
+<tr>
+<td style="text-align:center">attr_02</td>
+<td style="text-align:center">&#x901F;&#x5EA6;</td>
+<td style="text-align:center">[10%&#xFF0C;15%]</td>
+<td style="text-align:center">[15%&#xFF0C;30%]</td>
+<td style="text-align:center">[30%&#xFF0C;50%]</td>
+</tr>
+<tr>
+<td style="text-align:center">attr_03</td>
+<td style="text-align:center">&#x95EA;&#x907F;</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">attr_04</td>
+<td style="text-align:center">&#x529B;&#x91CF;</td>
+<td style="text-align:center">[5&#xFF0C;10]</td>
+<td style="text-align:center">[15&#xFF0C;30]</td>
+<td style="text-align:center">[30&#xFF0C;50]</td>
+</tr>
+<tr>
+<td style="text-align:center">attr_05</td>
+<td style="text-align:center">&#x9B54;&#x529B;</td>
+<td style="text-align:center">[5&#xFF0C;10]</td>
+<td style="text-align:center">[15&#xFF0C;30]</td>
+<td style="text-align:center">[30&#xFF0C;50]</td>
+</tr>
+<tr>
+<td style="text-align:center">attr_06</td>
+<td style="text-align:center">&#x5438;&#x8840;</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">attr_07</td>
+<td style="text-align:center">&#x66B4;&#x51FB;</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">attr_08</td>
+<td style="text-align:center">&#x521D;&#x59CB;&#x6280;&#x80FD;&#x70B9;</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">attr_09</td>
+<td style="text-align:center">&#x589E;&#x957F;&#x6280;&#x80FD;&#x70B9;</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">attr_10</td>
+<td style="text-align:center">&#x7269;&#x7406;&#x6297;&#x6027;</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">attr_11</td>
+<td style="text-align:center">&#x9B54;&#x6CD5;&#x6297;&#x6027;</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">-</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>&#x90E8;&#x5206;&#x5B57;&#x6BB5;&#x89E3;&#x91CA;<ul>
+<li><strong>&#x666E;&#x901A;&#x54C1;&#x8D28;&#x767E;&#x5206;&#x6BD4;&#x533A;&#x95F4;&#xFF0C;&#x666E;&#x901A;&#x54C1;&#x8D28;&#x56FA;&#x5B9A;&#x6570;&#x503C;&#x533A;&#x95F4;&#xFF1A;</strong>&#x5F53;&#x4E00;&#x4EF6;&#x88C5;&#x5907;&#x9700;&#x8981;&#x751F;&#x6210;&#x5C5E;&#x6027;&#x65F6;&#xFF0C;&#x6709;50%&#x7684;&#x51E0;&#x7387;&#x751F;&#x6210;&#x767E;&#x5206;&#x6BD4;&#x6216;&#x56FA;&#x5B9A;&#x6570;&#x503C;&#xFF0C;&#x7136;&#x540E;&#x6839;&#x636E;&#x751F;&#x6210;&#x88C5;&#x5907;&#x7684;&#x7B49;&#x7EA7;&#x518D;&#x53BB;&#x5BF9;&#x5E94;&#x7B49;&#x7EA7;&#x7684;&#x6570;&#x503C;&#x533A;&#x95F4;&#x4E2D;&#x968F;&#x673A;&#x6570;&#x503C;</li>
+</ul>
+</li>
+</ul>
+<h3 id="74-&#x6218;&#x6597;&#x6311;&#x6218;&#x6548;&#x679C;&#x8868;">7.4 &#x6218;&#x6597;&#x6311;&#x6218;&#x6548;&#x679C;&#x8868;<div id="74"></div></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">&#x5B57;&#x6BB5;&#x540D;</th>
+<th style="text-align:center">&#x5B57;&#x6BB5;</th>
+<th style="text-align:center">&#x793A;&#x4F8B;&#x503C;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">&#x6548;&#x679C;id</td>
+<td style="text-align:center">challenge_id</td>
+<td style="text-align:center">challenge_01</td>
+</tr>
+<tr>
+<td style="text-align:center">&#x6548;&#x679C;&#x540D;</td>
+<td style="text-align:center">challenge_name</td>
+<td style="text-align:center">&#x51B7;&#x9759;</td>
+</tr>
+<tr>
+<td style="text-align:center">&#x6548;&#x679C;&#x4ECB;&#x7ECD;</td>
+<td style="text-align:center">challenge_explanation</td>
+<td style="text-align:center">&#x6218;&#x6597;&#x5F00;&#x59CB;&#x65F6;&#xFF0C;&#x5DF1;&#x65B9;&#x6240;&#x6709;&#x5355;&#x4F4D;&#x7684;&#x521D;&#x59CB;&#x6280;&#x80FD;&#x70B9;&#x4E3A;0</td>
+</tr>
+<tr>
+<td style="text-align:center">&#x6548;&#x679C;&#x7B49;&#x7EA7;</td>
+<td style="text-align:center">challenge_level</td>
+<td style="text-align:center">&#x3010;normal&#x3011;&#x3010;advanced&#x3011;</td>
 </tr>
 </tbody>
 </table>
@@ -1205,7 +1529,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"7 实验室","level":"3.8","depth":1,"next":{"title":"8 更新日志","level":"3.9","depth":1,"path":"chapter2/8 更新日志.md","ref":"chapter2/8 更新日志.md","articles":[]},"previous":{"title":"6 游戏API","level":"3.7","depth":1,"path":"chapter2/6 游戏api.md","ref":"chapter2/6 游戏api.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter2/7 实验室.md","mtime":"2021-11-08T10:16:40.132Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-11-08T10:17:31.160Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"7 实验室","level":"3.8","depth":1,"next":{"title":"8 更新日志","level":"3.9","depth":1,"path":"chapter2/8 更新日志.md","ref":"chapter2/8 更新日志.md","articles":[]},"previous":{"title":"6 游戏API","level":"3.7","depth":1,"path":"chapter2/6 游戏api.md","ref":"chapter2/6 游戏api.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter2/7 实验室.md","mtime":"2021-11-09T12:40:23.798Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-11-09T12:41:18.517Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
