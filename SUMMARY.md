@@ -24,3 +24,7 @@
 - [7 实验室](chapter2/7 实验室.md)
 - [8 更新日志](chapter2/8 更新日志.md)
 
+## [元宇宙 Metaverse](chapter3/游戏概述.md)
+
+- [1 HeroEsempires](chapter4/heroesempires.md)
+
