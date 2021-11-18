@@ -28,4 +28,4 @@
 
 - [【14分】 WinNftHorse](chapter4/winnfthorse.md)
 - [【13分】 HeroEsempires](chapter4/heroesempires.md)
-- [【内容不足】 TopGoal](chapter4/TopGoal.md)
+- [【内容不足】 TopGoal](chapter4/topgoal.md)
