@@ -26,8 +26,11 @@
 
 ## [元宇宙 Metaverse](chapter3/游戏概述.md)
 
-- [【18分】 MinesofDalarnia](chapter4/MinesofDalarnia.md)
-- [【16分】 Alice](chapter4/alice.md)
-- [【14分】 WinNftHorse](chapter4/winnfthorse.md)
-- [【13分】 HeroEsempires](chapter4/heroesempires.md)
-- [【内容不足】 TopGoal](chapter4/topgoal.md)
+- 游戏
+  - [Alice](chapter4/alice.md)
+  - [WinNftHorse](chapter4/winnfthorse.md)
+  - [HeroEsempires](chapter4/heroesempires.md)
+  - [TopGoal](chapter4/topgoal.md)
+  - [MinesofDalarnia](chapter4/MinesofDalarnia.md)
+- 元宇宙平台
+  - [SnowCrash/$Nora](chapter4/nora.md)
