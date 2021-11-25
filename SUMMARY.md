@@ -6,7 +6,7 @@
 
 - 游戏
 
-  - [【New!】 illuvium / $ILV ](chapter4/illuvium.md)
+  - [illuvium / $ILV ](chapter4/illuvium.md)
   - [ThetanBox / $THG ](chapter4/ThetanBox.md)
   - [AlienWorlds](chapter4/AlienWorlds.md)
   - [Alice](chapter4/alice.md)
@@ -17,4 +17,5 @@
 
 - 非详细调研
 
-  - [【3 New!】 非详细调研](chapter4/feixiangxidiaoyan.md)
+  - [非详细调研](chapter4/feixiangxidiaoyan.md)
+  - [【New!】 YGG / $YGG ](chapter4/YGG.md)
