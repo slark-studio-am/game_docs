@@ -1,8 +1,10 @@
 # Summary
-
+- 元宇宙排名
+  - [待查看列表](chapter4/集合类内容/待查看列表.md)
+  - [ 分区列表](chapter4/集合类内容/分区列表.md)
 - 公会
-  - [ 【New!】YGG / $YGG ](chapter4/YGG.md)
-  - [ 【New!】Meritcircle/ $MC ](chapter4/meritcircle.md)
+  - [ YGG / $YGG ](chapter4/YGG.md)
+  - [Meritcircle/ $MC ](chapter4/meritcircle.md)
 - 平台
   - [SnowCrash / $Nora](chapter4/nora.md)
 - 游戏
