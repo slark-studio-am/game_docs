@@ -85,3 +85,26 @@
 |    对其他初创游戏项目进行早期投资（如果可见回报率最好）    |      |  3   |
 | 当前市值与可见资产间联系，主要看自有代币价值占总市值的比例 |      |  3   |
 |                          **合计**                          |      |      |
+
+
+
+
+
+
+
+
+
+
+
+|                            公会名                            | 收入结构 |    游戏入驻    |
+| :----------------------------------------------------------: | :------: | :------------: |
+|         [YieldGuild](https://twitter.com/YieldGuild)         |          |                |
+|     [MeritCircle_IO](https://twitter.com/MeritCircle_IO)     |          |                |
+|     [unixplaytoearn](https://twitter.com/unixplaytoearn)     |          |                |
+|      [GuildFiGlobal](https://twitter.com/GuildFiGlobal)      |          |                |
+|           [humanDAO](https://twitter.com/humanDAO)           |          |                |
+|     [goodgamesguild](https://twitter.com/goodgamesguild)     |          |                |
+|          [maodaonft](https://twitter.com/maodaonft)          |          |                |
+|            [PathDAO](https://twitter.com/PathDAO)            |          |                |
+| [$AGV](https://twitter.com/search?q=%24AGV&src=cashtag_click) |          | 早期无游戏入驻 |
+
